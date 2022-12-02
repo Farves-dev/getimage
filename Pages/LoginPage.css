@@ -1,0 +1,148 @@
+:root {
+  --secondary-color: #9a031e;
+  --primary-color: #a5a5a5;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  justify-content: space-between;
+}
+
+.active {
+  background-image: url(../../assets/getimage_background.png);
+  border-bottom: 2px solid var(--secondary-color);
+  z-index: 62;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.login-account {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.login-1 {
+  padding: 0.4rem 1rem;
+  border-radius: 7px;
+  cursor: pointer;
+  font-weight: bold;
+  background: var(--secondary-color);
+  color: var(--white);
+  transition: all 0.3s;
+}
+
+.already-account {
+  color: var(--secondary-color);
+}
+
+.login-1:hover {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.glassmorphism-1 {
+  background: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(7.5px);
+  border-radius: 15px;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.join-heading {
+  color: var(--secondary-color);
+  font-size: 2.5rem;
+}
+
+.google {
+  position: relative;
+  background: none;
+  border: 2px solid var(--secondary-color);
+  width: 100%;
+  padding: 0.5rem 7rem;
+  border-radius: 0.4rem;
+  color: var(--secondary-color);
+  margin-top: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.google:hover {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.google-icon {
+  position: absolute;
+  left: 0;
+  margin-left: 9px;
+  font-size: 1rem;
+}
+
+.or {
+  color: var(--secondary-color);
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.input {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  border: 2px solid var(--secondary-color);
+  background: none;
+  color: var(--secondary-color);
+  outline: none;
+  margin-top: 0.5rem;
+}
+
+.input::placeholder {
+  color: var(--secondary-color);
+}
+
+.join-button {
+  width: 100%;
+  padding: 0.5rem 7rem;
+  border-radius: 0.4rem;
+  border: none;
+  background: var(--secondary-color);
+  color: var(--white);
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-top: 0.5rem;
+}
+
+.join-button:hover {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.agree-text {
+  color: var(--secondary-color);
+  transition: all 0.3s;
+  cursor: pointer;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.agree-text:hover {
+  color: var(--primary-color);
+}

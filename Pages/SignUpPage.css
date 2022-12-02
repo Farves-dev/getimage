@@ -1,0 +1,34 @@
+:root {
+  --secondary-color: #9a031e;
+  --primary-color: #a5a5a5;
+}
+
+.name-input {
+  display: flex;
+  gap: 1rem;
+}
+
+.active {
+  background-image: url(../../assets/getimage_background.png);
+  border-bottom: 2px solid var(--secondary-color);
+  z-index: 62;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.input-name {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  border: 2px solid var(--secondary-color);
+  background: none;
+  color: var(--secondary-color);
+  outline: none;
+  margin-top: 0.5rem;
+}
+
+.input-name::placeholder {
+  color: var(--secondary-color);
+}

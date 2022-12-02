@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "Elixia";
+  src: url(../../Fonts/ELIXIA.ttf);
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  font-size: clamp(6rem, 16vw, 17rem);
+  font-family: "Elixia";
+  margin-top: 2rem;
+  background-color: #9a031e;
+  background-image: linear-gradient(to right, #b91372, #9a031e);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.description {
+  text-align: center;
+  font-size: clamp(0.8rem, 2.3vw, 3rem);
+  margin-top: -0.5rem;
+  color: var(--secondary-color);
+}
+
+.hero-input {
+  background-color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  padding: 0.3rem 0.6rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  border-radius: 0.3rem;
+  opacity: 80%;
+  width: clamp(12rem, 35vw, 35rem);
+}
+
+.search-icon {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
+.search-bar {
+  background: transparent;
+  outline: none;
+  border: none;
+  width: 100%;
+}
+
+.search-bar::placeholder {
+  color: var(--secondary-color);
+}

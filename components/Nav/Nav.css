@@ -1,0 +1,67 @@
+nav {
+  display: flex;
+  align-items: flex-start;
+  padding: 1rem;
+  justify-content: space-between;
+  transition: all 0.4s;
+}
+
+.active {
+  background-image: url(../../assets/getimage_background.png);
+  border-bottom: 2px solid var(--secondary-color);
+  z-index: 62;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.logo {
+  width: clamp(5rem, 7vw, 7rem);
+  max-height: 45px;
+}
+
+.show {
+  font-size: 1.5rem;
+  color: #9a031e;
+  transition: 0.3s;
+}
+
+.show:hover {
+  scale: 1.2;
+}
+
+.hidden {
+  display: none;
+}
+
+.menus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.login,
+.signup {
+  padding: 0.4rem 1rem;
+  border-radius: 7px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.signup {
+  background-image: linear-gradient(to right, #b91372, #9a031e);
+  color: var(--white);
+}
+
+.signup:hover {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.login {
+  border: 2px solid var(--secondary-color);
+  padding-block: 0.3rem;
+  color: var(--secondary-color);
+}

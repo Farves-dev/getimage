@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=GFS+Neohellenic:wght@400;700&display=swap");
+
+:root {
+  --primary-color: #a5a5a5;
+  --secondary-color: #9a031e;
+  --white: #f1f1f1;
+  --black: #1b1b1b;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../../assets/getimage_background.png");
+  font-family: "GFS Neohellenic", sans-serif;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--primary-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--secondary-color);
+  border-radius: 2rem;
+}

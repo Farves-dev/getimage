@@ -1,0 +1,65 @@
+:root {
+  --secondary-color: #9a031e;
+  --primary-color: #a5a5a5;
+}
+
+.dark-container-1 {
+  background: rgba(0, 0, 0, 0.351);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: clamp(1rem, 3vw, 3rem);
+  padding-top: 3rem;
+  min-height: 100vh;
+}
+
+.light-container-1 {
+  padding: 1.5rem;
+  background: var(--white);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-radius: 1rem;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.download-btn,
+.goback-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: all 0.3s;
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+  border-radius: 0.4rem;
+}
+
+.goback-btn {
+  outline: none;
+  border: 2px solid var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+.download-btn {
+  background-image: linear-gradient(to right, #b91372, #9a031e);
+  color: var(--white);
+  text-decoration: none;
+}
+
+.download-icon,
+.back-icon {
+  margin-top: 3px;
+}
+
+.prev-img {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px 9px 3px rgba(0, 0, 0, 0.351);
+}

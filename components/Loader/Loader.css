@@ -1,0 +1,24 @@
+.spinner {
+  width: 10em;
+  height: 10em;
+  border-top: 1em solid var(--secondary-color);
+  border-radius: 1em solid transparent;
+  border-radius: 50%;
+  margin: auto;
+  animation: spinner 1s linear infinite;
+}
+
+.circle {
+  width: 1em;
+  height: 1em;
+  background-color: var(--white);
+  border-radius: 50%;
+  margin-left: 8.5em;
+  margin-top: 0.5em;
+}
+
+@keyframes spinner {
+  100% {
+    rotate: 360deg;
+  }
+}
