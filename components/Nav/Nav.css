@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "Elixia";
+  src: url(../../Fonts/ELIXIA.ttf);
+}
+
+.getimage {
+  font-family: "Elixia";
+  font-size: 2rem;
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+
 nav {
   display: flex;
   align-items: flex-start;
@@ -8,7 +20,7 @@ nav {
 
 .active {
   background-color: #ececec;
-  background-image: url('../../assets/getimage-background.png');
+  background-image: url("../../assets/getimage-background.png");
   z-index: 999;
   border-bottom: 2px solid var(--secondary-color);
   z-index: 62;
