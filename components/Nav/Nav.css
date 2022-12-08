@@ -7,7 +7,8 @@ nav {
 }
 
 .active {
-  background-image: url(../../assets/getimage_background.png);
+  background-image: url('../../assets/getimage-background.png');
+  z-index: 999;
   border-bottom: 2px solid var(--secondary-color);
   z-index: 62;
   position: fixed;

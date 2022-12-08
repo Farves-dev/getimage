@@ -21,7 +21,7 @@ const Nav = () => {
   return (
     <nav className={nav && "active"}>
       <Link to="/">
-        <img src="../assets/getimage_logo.png" alt="Logo" className="logo" />
+        <img src="../assets/getimage-logo.png" alt="Logo" className="logo" />
       </Link>
 
       <a className={nav ? "show" : "hidden"} href="#hero" title="Go to top">
