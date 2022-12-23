@@ -4,10 +4,7 @@
 }
 
 .getimage {
-  font-family: "Elixia";
-  font-size: 2rem;
-  color: var(--secondary-color);
-  font-weight: bold;
+  width: 5.5rem;
 }
 
 nav {
