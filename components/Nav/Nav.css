@@ -16,15 +16,10 @@ nav {
 }
 
 .active {
-  background-color: #ececec;
-  background-image: url("../../assets/getimage-background.png");
+  background-color: #fff;
   z-index: 999;
   border-bottom: 2px solid var(--secondary-color);
-  z-index: 62;
   position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
 }
 
 .logo {
