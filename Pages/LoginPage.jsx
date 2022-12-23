@@ -28,7 +28,7 @@ const LoginPage = () => {
     <>
       <nav className={nav ? "active" : ""}>
         <Link to="/">
-          <img src="../assets/getimage_logo.png" alt="Logo" className="logo" />
+          <img src="getimage-logo.png" alt="Logo" className="logo" />
         </Link>
 
         <div className="login-account">
